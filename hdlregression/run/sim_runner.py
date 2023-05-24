@@ -789,7 +789,6 @@ class SimRunner:
         Create a testcase name based on entity, architecture, test, and generics.
         """
 
-        @staticmethod
         def get_generics_string(test) -> str:
             generics = test.get_gc_str(filter_testcase_id=True)
             if generics:
