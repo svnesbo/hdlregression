@@ -285,6 +285,8 @@ yet this can be changed using the available arguments or by using the :doc:`comm
 
   hr.start(netlist_timing='-sdfmin')
 
+  hr.start(sim_options="-t ps -do \"quietly set NumericStdNoWarnings 1\"")
+
 
 
 .. note::
